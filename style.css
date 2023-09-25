@@ -1,0 +1,209 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+   
+}
+.ok{
+    width: 100%;
+    height: 93vh;
+    position: relative;
+    background: url('https://i.ibb.co/vXqDmnh/background.jpg') no-repeat center center/cover;
+    filter: blur(0.7px);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around; /* Change to 'space-around' */
+}
+
+nav .img img {
+    width: 17%;
+    margin-top: -18px;
+}
+
+nav .btn {
+    display: flex;
+    margin-top: 12px;
+}
+
+.btn .eng {
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+.btn .eng:hover {
+    background-color: transparent;
+}
+
+.btn .sign {
+    width: 110px;
+    height: 40px;
+    background-color: rgb(224, 16, 16);
+    color: white;
+    font-size: 19px;
+    border-radius: 3px;
+    border: none;
+}
+
+.btn .sign:hover {
+    background-color: transparent;
+    border: 3px solid red;
+}
+
+.btn .eng {
+    margin-inline: 22px;
+}
+
+.main {
+    text-align: center;
+}
+
+.main h1 {
+    font-size: 60px;
+    font-family: 'Mukta', sans-serif; /* Correct font-family */
+}
+
+.main h3 {
+    font-size: 44px;
+}
+
+.main p {
+    font-size: 22px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+.input input {
+    width: 400px;
+    height: 58px; 
+    border: none;
+    font-size: 22px;
+}
+
+.input button {
+    width: 200px;
+    height: 60px;
+    background-color: rgb(225, 11, 11);
+    color: white;
+    font-size: 26px;
+    border: none;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around; 
+    /* margin-top: 160px; */
+    padding: 66px;
+    border-top: 4px solid gray;
+}
+
+.first h1 {
+    font-size: 55px;
+}
+
+.first p {
+    font-size: 27px;
+}
+
+.first img {
+    width: 40%;
+}
+
+.buttons h1 {
+    text-align: center;
+    margin-top: 33px;
+    font-size: 44px;
+}
+
+.buttons button {
+    width: 600px;
+    height: 60px;
+    background-color: gray;
+    color: white;
+    font-size: 26px;
+    margin-left: 26%;
+    text-align: left;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around; 
+    padding: 44px;
+    border-top: 4px solid gray;
+    margin-top: 53px;
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        background-size: cover;
+    }
+
+    nav .img img {
+        width: 10%;
+    }
+
+    .btn .eng,
+    .btn .sign {
+        width: 100px;
+        font-size: 16px;
+    }
+
+    .main h1 {
+        font-size: 40px;
+    }
+
+    .main h3 {
+        font-size: 30px;
+    }
+
+    .main p {
+        font-size: 18px;
+    }
+
+    .input input {
+        width: 70%;
+        max-width: 300px;
+        font-size: 18px;
+    }
+
+    .input button {
+        width: 50%;
+        max-width: 150px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .first {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first h1 {
+        font-size: 40px;
+    }
+
+    .first p {
+        font-size: 22px;
+    }
+
+    .first img {
+        width: 80%;
+    }
+
+    .buttons button {
+        width: 80%;
+        max-width: 400px;
+        font-size: 20px;
+    }
+}
+
